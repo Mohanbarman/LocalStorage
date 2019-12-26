@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto sans";
+}
+
+body {
+  background-color: #292d3e;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: 500;
+}
+
+body header {
+  color: #292d3e;
+  text-align: center;
+  padding: 1em 0;
+  background-color: whitesmoke;
+}
+
+body header span {
+  color: coral;
+  font-weight: 600;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #c5c5c5;
+  text-decoration-color: #c5c5c5;
+}
+
+body fieldset {
+  color: white;
+  padding: 2em;
+  margin: 3em;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  min-width: 400px;
+  max-width: 700px;
+}
+
+body fieldset legend {
+  font-size: 1.4rem;
+  padding: 0 0.4em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+body fieldset form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+body fieldset input[type="text"] {
+  text-align: center;
+  border: 0;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  padding: 0.5em;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body fieldset input[type="text"]:focus {
+  border-color: coral;
+}
+
+body fieldset input {
+  margin: 10px;
+}
+
+body fieldset .btn {
+  border: 3px solid white;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.6em 0;
+  background-color: coral;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+body fieldset .btn:hover,
+body fieldset .btn:focus {
+  background-color: #d86a42;
+}
+
+body .table-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 2em;
+}
+
+body .table-container .ls_table {
+  display: block;
+  color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+body .table-container .ls_table thead,
+body .table-container .ls_table tbody {
+  width: 100%;
+  display: block;
+  background-color: coral;
+}
+
+body .table-container .ls_table tbody {
+  background-color: rgba(255, 255, 255, 0.2);
+  overflow: auto;
+}
+
+body .table-container .ls_table thead tr th,
+body .table-container .ls_table tbody tr th,
+body .table-container .ls_table tbody tr td {
+  padding: 0.4em 2em;
+  font-size: 1.2rem;
+}
+
+body .table-container .ls_table thead tr th,
+body .table-container .ls_table tbody tr th {
+  background-color: coral;
+}
+
+body .table-container .clear-btn {
+  border: 0;
+  padding: 0.4em 2em;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: crimson;
+  color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
